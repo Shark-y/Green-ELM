@@ -22,7 +22,8 @@ Unlike traditional networks that "learn" features slowly, VoodooNet treats the h
 
 ## 🛠️ Installation & Usage
 ```bash
-git clone https://github.com
+git clone https://github.com/Shark-y/VoodooNet
 cd VoodooNet
 pip install -r requirements.txt
-python run_galactic_mnist.py --dims 2000 --dataset fashion
+python mnist.py
+python mnist-fashion.py
